@@ -11,6 +11,8 @@
 		1F8B61EC25D939F800D3E55C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B61EB25D939F800D3E55C /* ContentView.swift */; };
 		1F8B61EE25D939FE00D3E55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B61ED25D939FE00D3E55C /* Assets.xcassets */; };
 		1F8B61F125D939FE00D3E55C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B61F025D939FE00D3E55C /* Preview Assets.xcassets */; };
+		1F8B61FA25D948F100D3E55C /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B61F925D948F100D3E55C /* UserInfo.swift */; };
+		1F8B61FD25D949E900D3E55C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B61FC25D949E900D3E55C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1F8B61ED25D939FE00D3E55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F8B61F025D939FE00D3E55C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F8B61F225D939FE00D3E55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8B61F925D948F100D3E55C /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1F8B61FC25D949E900D3E55C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1F8B61E925D939F800D3E55C /* CovidSymptomTrackingApp.swift */,
+				1F8B61FC25D949E900D3E55C /* MainView.swift */,
 				1F8B61EB25D939F800D3E55C /* ContentView.swift */,
+				1F8B61F925D948F100D3E55C /* UserInfo.swift */,
 				1F8B61ED25D939FE00D3E55C /* Assets.xcassets */,
 				1F8B61F225D939FE00D3E55C /* Info.plist */,
 				1F8B61EF25D939FE00D3E55C /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8B61EC25D939F800D3E55C /* ContentView.swift in Sources */,
+				1F8B61FD25D949E900D3E55C /* MainView.swift in Sources */,
+				1F8B61FA25D948F100D3E55C /* UserInfo.swift in Sources */,
 				1F8B61EA25D939F800D3E55C /* CovidSymptomTrackingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
