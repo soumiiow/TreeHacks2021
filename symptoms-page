@@ -1,0 +1,191 @@
+ZStack {
+Group {
+    Rectangle()
+    .fill(Color.white)
+    .frame(width: 300, height: 33)
+    .padding(.leading, 71)
+    .padding(.trailing, 65)
+    .padding(.top, 56)
+    .padding(.bottom, 19)
+    .offset(x: 3, y: 464)
+    .frame(width: 436, height: 108)
+    .background(Color(red: 0.77, green: 0.77, blue: 0.77))
+
+    Ellipse()
+    .fill(Color(red: 1, green: 0.71, blue: 0.76, opacity: 0.75))
+    .offset(x: -192, y: -365)
+    .frame(width: 200, height: 200)
+
+    Ellipse()
+    .fill(Color(red: 0.56, green: 0.93, blue: 0.56, opacity: 0.75))
+    .offset(x: 214, y: -251)
+    .frame(width: 200, height: 200)
+
+    VStack(alignment: .leading, spacing: 3.45) {
+    Group {
+            Text("Fever or chills")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Cough")
+            .font(.subheadline)
+            .frame(width: 71, height: 13, alignment: .leading)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Shortness of breath or difficulty breathing")
+            .font(.subheadline)
+            .frame(width: 313, height: 6, alignment: .leading)
+
+            Text("Muscle or body aches")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Fatigue")
+            .font(.subheadline)
+            .frame(width: 71, height: 15, alignment: .leading)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+    }
+    Group {
+            Text("Headache")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("New loss of taste or smell")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Sore throat")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Congestion or runny nose")
+            .font(.subheadline)
+
+            Text("Nausea or vomiting")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+    }
+    Group {
+            Text("Diarrhea")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Trouble breathing")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Persistent pain or pressure in the chest")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("New confusion")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+
+            Text("Inability to wake or stay awake")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+    }
+    Group {
+            Text("Bluish lips or face")
+            .font(.subheadline)
+
+            Ellipse()
+            .fill(Color(red: 0.13, green: 0.70, blue: 0.67))
+            .frame(width: 15, height: 15)
+    }
+    }
+    .padding(.leading, 61)
+    .padding(.trailing, 30)
+    .padding(.top, 53)
+    .padding(.bottom, 25)
+    .offset(x: 3, y: 68)
+    .frame(width: 436, height: 654)
+    .background(Color(red: 0.42, green: 0.35, blue: 0.80, opacity: 0.20))
+
+    Text("May have COVID-19 if symptoms apply:")
+    .font(.subheadline)
+    .multilineTextAlignment(.center)
+    .frame(width: 562, height: 116)
+    .offset(x: 3, y: -233)
+
+    Text("WORKING TITLE")
+    .font(.largeTitle)
+    .offset(x: -5.50, y: -322)
+
+    Text("Symptoms")
+    .font(.title3)
+    .offset(x: -151.50, y: -380)
+
+    Text("Resources")
+    .font(.title3)
+    .offset(x: 154, y: -380)
+
+    Text("Seek Medical Health Imediately:")
+    .font(.subheadline)
+    .multilineTextAlignment(.center)
+    .frame(width: 562, height: 106)
+    .offset(x: 3, y: 187)
+
+    Text("Please select your symptoms: ")
+    .font(.title)
+    .multilineTextAlignment(.center)
+    .frame(width: 562, height: 106)
+    .offset(x: 3, y: 438)
+}
+Group {
+    Ellipse()
+    .fill(Color(red: 0.51, green: 0.89, blue: 0.89, opacity: 0.75))
+    .offset(x: 214, y: 361)
+    .frame(width: 200, height: 200)
+}
+}
+.frame(width: 550, height: 820)
+.background(Color(red: 0.69, green: 0.93, blue: 0.93, opacity: 0.25))
