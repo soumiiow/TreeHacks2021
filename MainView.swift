@@ -17,7 +17,11 @@ struct MainView: View {
 
             UserInfo()
                 .tabItem {
-                    Label("Profile", systemImage: "square.and.pencil")
+                    Label("Profile", systemImage: "person")
+                }
+            Resources()
+                .tabItem {
+                    Label("Resources", systemImage: "square.and.pencil")
                 }
         }
     }
